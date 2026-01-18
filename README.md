@@ -1,77 +1,51 @@
-🇪🇸 Estudio Demográfico — Natalidad en España (2002–2024)
+Análisis de Natalidad en España (2002–2024)
 
-Autor: Jesús Chapa Valiente
-Lenguaje: Python
-Fuente de datos: Instituto Nacional de Estadística (INE)
+Jesús Chapa Valiente
 
-📌 Descripción del proyecto
+Estudio demográfico aplicado que analiza el diferencial de fecundidad entre mujeres de nacionalidad española y extranjera residentes en España.
 
-Este repositorio contiene un análisis demográfico de la fecundidad en España entre los años 2002 y 2024, comparando el comportamiento reproductivo de mujeres de nacionalidad española y extranjera.
+Objetivo
 
-El objetivo principal es:
+Evaluar si las diferencias observadas en la fecundidad entre población española y extranjera responden a:
 
-Evaluar si el diferencial observado en la fecundidad responde a una mayor fecundidad final o a diferencias en el calendario reproductivo.
+mayor fecundidad final por mujer,
 
-Para ello, el estudio distingue entre:
+o a un calendario reproductivo diferente.
 
-Intensidad anual de la fecundidad
+Datos
 
-Distribución por edad (ASFR)
+Fuentes oficiales del Instituto Nacional de Estadística (INE):
 
-Calendario reproductivo (edad media a la maternidad)
+nacimientos por nacionalidad de la madre,
 
-Fecundidad acumulada (TFR)
+tasas específicas de fecundidad por edad (ASFR),
 
-Efectos estructurales mediante descomposición tipo Kitagawa
+población femenina 15–49 por edad y nacionalidad.
 
-🧠 Enfoque metodológico
+Periodo analizado: 2002–2024
 
-El análisis sigue un enfoque progresivo:
-
-Indicadores agregados
+Indicadores calculados
 
 Tasa de nacimientos por 1.000 mujeres (15–49)
 
-Ratio extranjera / española
+Tasas específicas de fecundidad por edad (ASFR)
 
-Análisis por edad
+Tasa Global de Fecundidad (TFR)
 
-Tasas específicas de fecundidad (ASFR)
+Edad media a la maternidad
 
-Diferenciales por grupos quinquenales
+Ratio de intensidad reproductiva (extranjera / española)
 
-Calendario reproductivo
+Descomposición tipo Kitagawa del diferencial agregado
 
-Edad media a la maternidad (MAC)
+Principales resultados
 
-Evolución temporal y visualización por heatmaps
+La fecundidad extranjera es más alta en términos anuales.
 
-Indicadores sintéticos
+Sin embargo, el diferencial en el TFR es moderado.
 
-Reconstrucción del TFR
+Las extranjeras concentran la fecundidad en edades más jóvenes.
 
-Comparación intensidad vs fecundidad final
+Las españolas retrasan la maternidad hacia edades más tardías.
 
-Descomposición estructural
-
-Aplicación de una descomposición tipo Kitagawa
-
-Separación del diferencial en:
-
-Efecto de estructura por edad
-
-Efecto de tasas específicas
-
-📊 Resultados principales
-
-La población extranjera presenta tasas anuales más elevadas.
-
-Sin embargo, la diferencia en el TFR es moderada, no extrema.
-
-La fecundidad extranjera se concentra en edades más tempranas.
-
-Se observa un proceso de convergencia en el calendario reproductivo.
-
-La descomposición Kitagawa muestra que:
-
-El diferencial se explica en gran medida por la estructura etaria, no solo por mayor fecundidad real.
+La descomposición Kitagawa muestra que gran parte del diferencial se explica por la estructura etaria y el calendario, no solo por mayor fecundidad final.
